@@ -1,8 +1,10 @@
 # main.py
 
-def calculate_S(a0, a1, x0, x1, x):
+def calculate_S(a0, a1, x0, x1, x): #3 5 1 3 2
     #输入区
+    
 
+    S = (a1 - a0)/(x1 - x0)*(x - x0) + a0
     
     return S
 
